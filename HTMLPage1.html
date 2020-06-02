@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+
+button {
+        color : white;
+        margin: 10px 0px; 
+        margin:auto;
+        display:block;
+        opacity: 0.5;
+        width : 100%;
+        background-color: #2196f3;
+        
+         }   
+ 
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;  
+        box-sizing: border-box;
+        opacity: 0.5;
+  }  
+ 
+   
+ .container {
+          background-image: url("new.jfif");
+          background-size: cover;
+          padding: 25px;
+          background-color: lightblue;
+          margin: auto;
+          width: 30%;
+          padding: 10px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          border: 1px solid;
+          padding: 10px;
+          box-shadow: 5px 10px 18px #888888;
+          font-family: lato; 
+    } 
+    
+a { 
+          color:White;
+          text-align:center;
+          display: block;
+     }
+#round {
+            border-radius: 20px;
+            padding: 15px; 
+}
+
+</style>   
+</head>    
+<body>    
+    <form>  
+        <div class="container">
+            <h2 style = "color:white;" >  SIGN IN  </h2> <hr>
+            <label style = "color:white;">USERNAME  </label>   <br>
+            <input type="text"  id="round"  name="username" required>  <br>
+            <label style = "color:white;">PASSWORD  </label>   <br>
+            <input type="password" id = "round"  name="password" required>  <br>
+            <input type="checkbox" checked="checked" >
+            <label style = "color:white;">Keep me signed in  </label>   <br>
+            <button type="submit" id = "round"><b>SIGN  IN</b></button>   <br> 
+            <hr>
+            <a href = "#"> Forget password? <a>
+        </div>   
+    </form>     
+</body>     
+</html>  
